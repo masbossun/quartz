@@ -8,20 +8,20 @@ Our plan to develop SOP + Online Booking
 - [ ] New: [[Implement Calendar Filters on Building List (UI)]] (3)
 - [ ] New: [[Create new modal - Select Checkin-out Modal (UI)]] (5)
 - [ ] New: [[Search Buildings Based on Calendar Filter (Query)]] (3)
-	- [i] [[#Filter Buildings Availability]]
+	- [i] [[Mobile App SOP Development#Filter Buildings Availability]]
 - [ ] Revamp: [[Availability Badge Visibility on Building Card (UI)]] (1)
 - [ ] Revamp: [[Availability Badge Visibility on Mapview Building Card (UI)]] (1)
 
 ## Enable search “room availability function” at building pages
 - [ ] New: [[Implement Calendar Filters Building Detail (UI)]] (3)
-	- [i] [[#Filter Rooms Availability]]
+	- [i] [[Mobile App SOP Development#Filter Rooms Availability]]
 - [ ] New: [[Add new parameter Checkin-out date on Building Detail]] (1)
 - [ ] Revamp: [[Revamp Building Room Card (UI)]] (3)
 - [ ] New: [[Building Detail Rooms Sorting (UI)]] (3)
 
 ## Remove current availability labeling 
-- See [[#Enable search “room availability function” at all search location collection pages]]
-- See [[#Enable search “room availability function” at building pages]]
+- See [[Mobile App SOP Development#Enable search “room availability function” at building pages]]
+- See [[Mobile App SOP Development#Enable search “room availability function” at all search location collection pages]]
 
 ## Enable user to select the available room
 
@@ -42,10 +42,10 @@ Our plan to develop SOP + Online Booking
 - [ ] Reuse: [[Get Vouchers (Query)]] (2)
 	- [i] Navigate to Vouchers Screen and Query the Vouchers
 - [ ] New: [[Order Booking for Review (Query)]] (5)
-	- [i] [[#Params Screen for Review State]]
-	- [i] [[#Invoice Calculation]]
+	- [i] [[Mobile App SOP Development#Params Screen for Review State]]
+	- [i] [[Mobile App SOP Development#Invoice Calculation]]
 - [ ] New: [[Perform Booking (Mutation)]] (5)
-	- [i] [[#Create Booking Order]]
+	- [i] [[Mobile App SOP Development#Create Booking Order]]
 
 ## Recheck room availability 
 - [ ] New: [[Perform check room availability (Mutation)]] (3)
@@ -59,18 +59,18 @@ Our plan to develop SOP + Online Booking
 ## Develop detail order page
 - See [[#Develop review detail order page]]
 - [ ] New: [[Order Booking for Detail (Query)]] (5)
-	- [i] [[#Params Screen for Detail State]]
+	- [i] [[Mobile App SOP Development#Params Screen for Detail State]]
 
 ## Enable user to select the payment method
 - [ ] New: [[Perform Select Payment VA (Mutation)]] (3)
-	- [i] [[#Select Payment VA]]
+	- [i] [[Mobile App SOP Development#Select Payment VA]]
 
 ## Enable user to pay his order using midtrans with given timeline
 - _TBD_
 
 ## Enable user to change their payment method
 - [ ] New: [[Cancel Payment VA (Mutation)]] (3)
-	- [i] [[#Change Cancel Payment VA]]
+	- [i] [[Mobile App SOP Development#Change Cancel Payment VA]]
 
 ## Show user payment status and the action needed from user at each stage
 
@@ -78,11 +78,11 @@ Our plan to develop SOP + Online Booking
 
 ## Develop function to enable user to get their latest payment status
 
-- See [[#Develop review detail order page]]
+- See [[Mobile App SOP Development#Develop review detail order page]]
 - [ ] New: [[Get Latest Booking Status (API)]] (2)
 
 ## Enable user to see and download the invoice PDF
-- See [[#Develop review detail order page]]
+- See [[Mobile App SOP Development#Develop review detail order page]]
 
 ## Add more informations at EDIT profile
 - [ ] Revamp: [[Tenant Personal Info at Profile (UI)]] (3)
