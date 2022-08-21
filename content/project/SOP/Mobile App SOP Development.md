@@ -207,14 +207,16 @@ Task not listed on requirements
 	
 
 # Storypoints
+```
 approx_sp:: 161
 sprints:: 5
 development_days:: 8
 devs:: 3
-mandays\_each\_sprint:: 24 (development\_days \* devs)
-total\_mandays:: 120 (mandays\_each\_sprint \* sprints)
+mandays_each_sprint:: 24 (development_days * devs)
+total_mandays:: 120 (mandays_each_sprint * sprints)
 vpd:: 5
-cap:: 600 (total\_mandays \* vpd)
+cap:: 600 (total_mandays * vpd)
+```
 
 # TODO
 - [x] Explore Calendar Component
