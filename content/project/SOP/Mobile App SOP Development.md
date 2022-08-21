@@ -10,14 +10,14 @@ Our plan to develop SOP + Online Booking
 - New: [[Implement Calendar Filters on Building List (UI)]] (3)
 - New: [[Create new modal - Select Checkin-out Modal (UI)]] (5)
 - New: [[Search Buildings Based on Calendar Filter (Query)]] (3)
-  - [i] [[Mobile App SOP Development#Filter Buildings Availability]]
+  - [[Mobile App SOP Development#Filter Buildings Availability]]
 - Revamp: [[Availability Badge Visibility on Building Card (UI)]] (1)
 - Revamp: [[Availability Badge Visibility on Mapview Building Card (UI)]] (1)
 
 ## Enable search “room availability function” at building pages
 
 - New: [[Implement Calendar Filters Building Detail (UI)]] (3)
-  - [i] [[Mobile App SOP Development#Filter Rooms Availability]]
+  - [[Mobile App SOP Development#Filter Rooms Availability]]
 - New: [[Add new parameter Checkin-out date on Building Detail]] (1)
 - Revamp: [[Revamp Building Room Card (UI)]] (3)
 - New: [[Building Detail Rooms Sorting (UI)]] (3)
@@ -44,36 +44,36 @@ Our plan to develop SOP + Online Booking
 
 - New: [[Booking Order Detail or Review (UI)]] (55)
 - Reuse: [[Perform Check Referral (Mutation)]] (2)
-  - [i] Use existing referral check mutation
+  - Use existing referral check mutation
 - Reuse: [[Get Vouchers (Query)]] (2)
-  - [i] Navigate to Vouchers Screen and Query the Vouchers
+  - Navigate to Vouchers Screen and Query the Vouchers
 - New: [[Order Booking for Review (Query)]] (5)
-  - [i] [[Mobile App SOP Development#Params Screen for Review State]]
-  - [i] [[Mobile App SOP Development#Invoice Calculation]]
+  - [[Mobile App SOP Development#Params Screen for Review State]]
+  - [[Mobile App SOP Development#Invoice Calculation]]
 - New: [[Perform Booking (Mutation)]] (5)
-  - [i] [[Mobile App SOP Development#Create Booking Order]]
+  - [[Mobile App SOP Development#Create Booking Order]]
 
 ## Recheck room availability
 
 - [ ] New: [[Perform check room availability (Mutation)]] (3)
-  - [i] Will show modal and prevent to go to next flow
+  - Will show modal and prevent to go to next flow
 
 ## Recheck room price
 
 - New: [[Perform check room price changes (Mutation)]] (3)
-  - [i] Will show snackbar
-  - [i] Might prevent to to to next flow
+  - Will show snackbar
+  - Might prevent to to to next flow
 
 ## Develop detail order page
 
 - See [[#Develop review detail order page]]
 - New: [[Order Booking for Detail (Query)]] (5)
-  - [i] [[Mobile App SOP Development#Params Screen for Detail State]]
+  - [[Mobile App SOP Development#Params Screen for Detail State]]
 
 ## Enable user to select the payment method
 
 - New: [[Perform Select Payment VA (Mutation)]] (3)
-  - [i] [[Mobile App SOP Development#Select Payment VA]]
+  - [[Mobile App SOP Development#Select Payment VA]]
 
 ## Enable user to pay his order using midtrans with given timeline
 
@@ -82,7 +82,7 @@ Our plan to develop SOP + Online Booking
 ## Enable user to change their payment method
 
 - New: [[Cancel Payment VA (Mutation)]] (3)
-  - [i] [[Mobile App SOP Development#Change Cancel Payment VA]]
+  - [[Mobile App SOP Development#Change Cancel Payment VA]]
 
 ## Show user payment status and the action needed from user at each stage
 
@@ -114,7 +114,7 @@ Our plan to develop SOP + Online Booking
 ## “Riwayat pesanan kost” change it to “Waiting list”
 
 - Revamp: [[Change Booking History Menu Label]] (1)
-  - [i] Decide to change the menu label
+  - Decide to change the menu label
 
 ## remove “ajukan sewa” button from wishlist
 
@@ -124,10 +124,10 @@ Our plan to develop SOP + Online Booking
 
 - Revamp: [[Remapping Invoice Detail Statuses]] (5)
   - [?] Need to make sure UI Invoice Detail with new SOP Statuses Mapping
-  - [i] The different is only on Expired x Failed payment status
+  - The different is only on Expired x Failed payment status
 - Revamp: [[Remapping Invoice AddOn Detail Statuses]] (5)
   - [?] Need to make sure UI Invoice Detail with new SOP Statuses Mapping
-  - [i] The different is only on Expired x Failed payment status
+  - The different is only on Expired x Failed payment status
 
 ---
 
@@ -136,9 +136,9 @@ Task not listed on requirements
 ## Current Voucher Detail Revamp
 
 - Revamp: [[Fix use voucher from Voucher Detail behavior]] (3)
-  - [i] If using one button, On user use voucher, will either go to Invoice List or My Booking List
-  - [i] If using two buttons, On user use voucher, will either choose to go to Invoice List or My Booking List
-  - [i] Decide to go to current Recurring Invoice List
+  - If using one button, On user use voucher, will either go to Invoice List or My Booking List
+  - If using two buttons, On user use voucher, will either choose to go to Invoice List or My Booking List
+  - Decide to go to current Recurring Invoice List
 
 ## Handling New Notification
 
@@ -159,7 +159,7 @@ Task not listed on requirements
   - Check-in Date
   - Check-out Date
 - **Response**
-  - [i] Dynamic Value of Availability
+  - Dynamic Value of Availability
 
 #### Filter Rooms Availability:
 
@@ -167,8 +167,8 @@ Task not listed on requirements
   - Check-in Date
   - Check-out Date
 - **Response**
-  - [i] Array of BuildingType
-  - [i] Dynamic Value of Availability
+  - Array of BuildingType
+  - Dynamic Value of Availability
 
 #### Params Screen for Review State:
 
@@ -261,11 +261,11 @@ total_sprints_required:: 1.34 (approx_sp / cap_each_sprint)
   - [x] Create Booking Order
   - [x] Select Payment VA
   - [x] Change/Cancel Payment VA
-- [-] Read and Plan about Tenant Phone Number Verification
+- ~~Read and Plan about Tenant Phone Number Verification~~
 - [/] Update timeline
 - [ ] Make sure Building Query to BE
 - [ ] Make sure Room Availability Query to BE
-  - [i] Existing room data is tight to Building Detail Query
+  - Existing room data is tight to Building Detail Query
 - [ ] Make sure `isTenant` condition
 - [ ] Make sure UI current invoice detail status to [[Ling]]
   - [x] Mapping Statuses
