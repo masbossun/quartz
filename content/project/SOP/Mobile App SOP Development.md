@@ -4,20 +4,20 @@ Our plan to develop SOP + Online Booking
 # Tasks
 
 ## Enable search “room availability function” at all search/location/collection pages
-- [x] Explore: Calendar Filters (UI) (5)
-- [ ] New: [[Implement Calendar Filters on Building List (UI)]] (3)
-- [ ] New: [[Create new modal - Select Checkin-out Modal (UI)]] (5)
-- [ ] New: [[Search Buildings Based on Calendar Filter (Query)]] (3)
+- Explore: Calendar Filters (UI) (5)
+- New: [[Implement Calendar Filters on Building List (UI)]] (3)
+- New: [[Create new modal - Select Checkin-out Modal (UI)]] (5)
+- New: [[Search Buildings Based on Calendar Filter (Query)]] (3)
 	- [i] [[Mobile App SOP Development#Filter Buildings Availability]]
-- [ ] Revamp: [[Availability Badge Visibility on Building Card (UI)]] (1)
-- [ ] Revamp: [[Availability Badge Visibility on Mapview Building Card (UI)]] (1)
+- Revamp: [[Availability Badge Visibility on Building Card (UI)]] (1)
+- Revamp: [[Availability Badge Visibility on Mapview Building Card (UI)]] (1)
 
 ## Enable search “room availability function” at building pages
-- [ ] New: [[Implement Calendar Filters Building Detail (UI)]] (3)
+- New: [[Implement Calendar Filters Building Detail (UI)]] (3)
 	- [i] [[Mobile App SOP Development#Filter Rooms Availability]]
-- [ ] New: [[Add new parameter Checkin-out date on Building Detail]] (1)
-- [ ] Revamp: [[Revamp Building Room Card (UI)]] (3)
-- [ ] New: [[Building Detail Rooms Sorting (UI)]] (3)
+- New: [[Add new parameter Checkin-out date on Building Detail]] (1)
+- Revamp: [[Revamp Building Room Card (UI)]] (3)
+- New: [[Building Detail Rooms Sorting (UI)]] (3)
 
 ## Remove current availability labeling 
 - See [[Mobile App SOP Development#Enable search “room availability function” at building pages]]
@@ -25,26 +25,26 @@ Our plan to develop SOP + Online Booking
 
 ## Enable user to select the available room
 
-- [ ] New: [[Building Detail - Select Room For Booking (UI)]] (2)
+- New: [[Building Detail - Select Room For Booking (UI)]] (2)
 
 ## Booking Prerequisites logic
-- [ ] New: [[Check pre-requisite rule before booking]] (5)
-	- [ ] Check login condition
-	- [ ] Check tenant personal info (Via API or Check manually)
-	- [ ] Handle resume user journey after login/signup
-- [ ] New: [[Tenant Personal Info Form (UI)]] (5)
-- [ ] New: [[Tenant Personal Info Form (Query + Mutation)]] (5)
+- New: [[Check pre-requisite rule before booking]] (5)
+	- Check login condition
+	- Check tenant personal info (Via API or Check manually)
+	- Handle resume user journey after login/signup
+- New: [[Tenant Personal Info Form (UI)]] (5)
+- New: [[Tenant Personal Info Form (Query + Mutation)]] (5)
 
 ## Develop (review)detail order page
-- [ ] New: [[Booking Order Detail or Review (UI)]] (55)
-- [ ] Reuse: [[Perform Check Referral (Mutation)]] (2)
+- New: [[Booking Order Detail or Review (UI)]] (55)
+- Reuse: [[Perform Check Referral (Mutation)]] (2)
 	- [i] Use existing referral check mutation
-- [ ] Reuse: [[Get Vouchers (Query)]] (2)
+- Reuse: [[Get Vouchers (Query)]] (2)
 	- [i] Navigate to Vouchers Screen and Query the Vouchers
-- [ ] New: [[Order Booking for Review (Query)]] (5)
+- New: [[Order Booking for Review (Query)]] (5)
 	- [i] [[Mobile App SOP Development#Params Screen for Review State]]
 	- [i] [[Mobile App SOP Development#Invoice Calculation]]
-- [ ] New: [[Perform Booking (Mutation)]] (5)
+- New: [[Perform Booking (Mutation)]] (5)
 	- [i] [[Mobile App SOP Development#Create Booking Order]]
 
 ## Recheck room availability 
@@ -52,24 +52,24 @@ Our plan to develop SOP + Online Booking
 	- [i] Will show modal and prevent to go to next flow
 	
 ## Recheck room price
-- [ ] New: [[Perform check room price changes (Mutation)]] (3)
+- New: [[Perform check room price changes (Mutation)]] (3)
 	- [i] Will show snackbar
 	- [i] Might prevent to to to next flow
 
 ## Develop detail order page
 - See [[#Develop review detail order page]]
-- [ ] New: [[Order Booking for Detail (Query)]] (5)
+- New: [[Order Booking for Detail (Query)]] (5)
 	- [i] [[Mobile App SOP Development#Params Screen for Detail State]]
 
 ## Enable user to select the payment method
-- [ ] New: [[Perform Select Payment VA (Mutation)]] (3)
+- New: [[Perform Select Payment VA (Mutation)]] (3)
 	- [i] [[Mobile App SOP Development#Select Payment VA]]
 
 ## Enable user to pay his order using midtrans with given timeline
 - _TBD_
 
 ## Enable user to change their payment method
-- [ ] New: [[Cancel Payment VA (Mutation)]] (3)
+- New: [[Cancel Payment VA (Mutation)]] (3)
 	- [i] [[Mobile App SOP Development#Change Cancel Payment VA]]
 
 ## Show user payment status and the action needed from user at each stage
@@ -79,36 +79,36 @@ Our plan to develop SOP + Online Booking
 ## Develop function to enable user to get their latest payment status
 
 - See [[Mobile App SOP Development#Develop review detail order page]]
-- [ ] New: [[Get Latest Booking Status (API)]] (2)
+- New: [[Get Latest Booking Status (API)]] (2)
 
 ## Enable user to see and download the invoice PDF
 - See [[Mobile App SOP Development#Develop review detail order page]]
 
 ## Add more informations at EDIT profile
-- [ ] Revamp: [[Tenant Personal Info at Profile (UI)]] (3)
-- [ ] Revamp: [[Get and Update Tenant Personal Info at Profile (Query + Mutation)]] (3)
-- [-] Verify Phone Number with OTP (15)
+- Revamp: [[Tenant Personal Info at Profile (UI)]] (3)
+- Revamp: [[Get and Update Tenant Personal Info at Profile (Query + Mutation)]] (3)
+- ~~Verify Phone Number with OTP (15)~~
 
 ## Develop new page “my booking”
-- [ ] New: [[My Booking List (UI)]] (7)
+- New: [[My Booking List (UI)]] (7)
 
 ## Change “tagihan” page to “Tagihan sewa”
-- [ ] Revamp: [[Change Tagihan Menu Label]] (1)
+- Revamp: [[Change Tagihan Menu Label]] (1)
 
 ## “Riwayat pesanan kost” change it to “Waiting list”
-- [ ] Revamp: [[Change Booking History Menu Label]] (1)
+- Revamp: [[Change Booking History Menu Label]] (1)
 	- [i] Decide to change the menu label
 	
 ## remove “ajukan sewa” button from wishlist
 
-- [ ] Revamp: [[Remove Card Buttons on Wishlist Card]] (1)
+- Revamp: [[Remove Card Buttons on Wishlist Card]] (1)
 
 
 ## Current Recurring Invoice Revamp
-- [ ] Revamp: [[Remapping Invoice Detail Statuses]] (5)
+- Revamp: [[Remapping Invoice Detail Statuses]] (5)
 	- [?] Need to make sure UI Invoice Detail with new SOP Statuses Mapping
 	- [i] The different is only on Expired x Failed payment status
-- [ ] Revamp: [[Remapping Invoice AddOn Detail Statuses]] (5)
+- Revamp: [[Remapping Invoice AddOn Detail Statuses]] (5)
 	- [?] Need to make sure UI Invoice Detail with new SOP Statuses Mapping
 	- [i] The different is only on Expired x Failed payment status
 
@@ -117,14 +117,14 @@ Our plan to develop SOP + Online Booking
 Task not listed on requirements
 
 ## Current Voucher Detail Revamp
-- [ ] Revamp: [[Fix use voucher from Voucher Detail behavior]] (3)
+- Revamp: [[Fix use voucher from Voucher Detail behavior]] (3)
 	- [i] If using one button, On user use voucher, will either go to Invoice List or My Booking List
 	- [i] If using two buttons, On user use voucher, will either choose to go to Invoice List or My Booking List
 	- [i] Decide to go to current Recurring Invoice List
 
 ## Handling New Notification
-- [ ] New: [[Handle notification (Online Booking, First Invoice)]] (2)
-- [ ] New: [[Handle New Booking Dot Indicator]] (2)
+- New: [[Handle notification (Online Booking, First Invoice)]] (2)
+- New: [[Handle New Booking Dot Indicator]] (2)
 
 
 # Additional Info
