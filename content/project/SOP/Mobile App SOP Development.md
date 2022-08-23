@@ -3,6 +3,8 @@ Our plan to develop SOP + Online Booking
 
 # Tasks
 
+[Online Booking Requirements](https://rukita.atlassian.net/wiki/spaces/RN/pages/2047508543/Online+booking)
+
 ## Enable search “room availability function” at all search/location/collection pages
 #### Not Depends To BE
 - New: [[Implement Calendar Filters on Building List (UI)]] (3)
@@ -128,6 +130,19 @@ Our plan to develop SOP + Online Booking
 - Revamp: [[Remove Card Buttons on Wishlist Card]] (1)
 
 
+---
+
+[Discount Revamp](https://rukita.atlassian.net/wiki/spaces/RN/pages/2045050891/EPIC-1ST+INVOICE+Show+and+Remove+Discount)
+
+## Show and Remove Discount
+#### Dependent to BE
+- New: [[Handle new Building List API using REST]] (30)
+
+
+---
+
+Task not listed on requirements
+
 ## Current Recurring Invoice Revamp
 #### Dependent to BE
 - Revamp: [[Remapping Invoice Detail Statuses]] (5)
@@ -137,9 +152,6 @@ Our plan to develop SOP + Online Booking
 	- [?] Need to make sure UI Invoice Detail with new SOP Statuses Mapping
 	- The different is only on Expired x Failed payment status
 
----
-
-Task not listed on requirements
 
 ## Current Voucher Detail Revamp
 #### Not Depends To BE
@@ -235,7 +247,7 @@ Task not listed on requirements
 
 # Storypoints
 ```
-approx_sp:: 161
+approx_sp:: 191
 ```
 
 ## VPD 5
@@ -248,7 +260,7 @@ cap_each_sprint:: 120 (vpd * devs * development_days)
 sprints:: 5
 cap:: 600 (cap_each_sprint * sprints)
 
-total_sprints_required:: 1.34 (approx_sp / cap_each_sprint)
+total_sprints_required:: 1.59 (approx_sp / cap_each_sprint)
 ```
 
 ## VPD 4
@@ -261,7 +273,7 @@ cap_each_sprint:: 96 (vpd * devs * development_days)
 sprints:: 5
 cap:: 480 (cap_each_sprint * sprints)
 
-total_sprints_required:: 1.67 (approx_sp / cap_each_sprint)
+total_sprints_required:: 1.98 (approx_sp / cap_each_sprint)
 ```
 
 ## VPD 3
@@ -274,7 +286,7 @@ cap_each_sprint:: 72 (vpd * devs * development_days)
 sprints:: 5
 cap:: 360 (cap_each_sprint * sprints)
 
-total_sprints_required:: 2.23 (approx_sp / cap_each_sprint)
+total_sprints_required:: 2.65 (approx_sp / cap_each_sprint)
 ```
 
 ## VPD 2
@@ -287,7 +299,7 @@ cap_each_sprint:: 48 (vpd * devs * development_days)
 sprints:: 5
 cap:: 240 (cap_each_sprint * sprints)
 
-total_sprints_required:: 3.35 (approx_sp / cap_each_sprint)
+total_sprints_required:: 3.97 (approx_sp / cap_each_sprint)
 ```
 
 ## VPD 1
@@ -299,7 +311,7 @@ cap_each_sprint:: 24 (vpd * devs * development_days)
 
 sprints:: 5
 cap:: 120 (cap_each_sprint * sprints)
-total_sprints_required:: 6.7 (approx_sp / cap_each_sprint)
+total_sprints_required:: 7.9 (approx_sp / cap_each_sprint)
 ```
 
 # TODO
@@ -323,6 +335,8 @@ total_sprints_required:: 6.7 (approx_sp / cap_each_sprint)
 - [ ] Make sure UI current invoice detail status to [[Ling]]
 	- [x] Mapping Statuses
 	- [ ] [[Ryan]] Check current mapping with new status at https://docs.google.com/spreadsheets/d/1lb9K039YcjFLtV3wTPpy6A0RUquIKW_Y9H8wZsn-r2Q/edit#gid=998714156
+- [ ] Sync with aries about response and payload expectation to set a timeline
+	- [ ] For [[Handle new Building List API using REST]]
 
 
 # References
